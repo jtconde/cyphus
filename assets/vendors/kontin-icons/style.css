@@ -43,7 +43,7 @@
 .icon-check:before {
   content: "\e905";
 }
-.icon-industrial:before {
+.icon-pencil2:before {
   content: "\e906";
 }
 .icon-petroleum:before {
@@ -96,4 +96,7 @@
 }
 .icon-under-construction-1:before {
   content: "\e917";
+}
+.custom-icon {
+  color:#0064AD;
 }
