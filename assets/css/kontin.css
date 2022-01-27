@@ -22,7 +22,7 @@
     --thm-reey-font: 'reeyregular';
     --thm-gray: #767676;
     --thm-gray-rgb: 118, 118, 118;
-    --thm-primary: #fba919;
+    --thm-primary: #0064AD;
     --thm-primary-rgb: 251, 169, 25;
     --thm-black: #171717;
     --thm-black-rgb: 23, 23, 23;
@@ -4581,7 +4581,6 @@ ul {
 .we-build__points li {
     position: relative;
     display: block;
-    padding-left: 86px;
     border-bottom: 1px solid #e2e2e2;
     padding-bottom: 42px;
     margin-bottom: 44px;
@@ -4656,7 +4655,8 @@ ul {
     position: relative;
     display: block;
     padding: 230px 0 86px;
-    margin-top: -140px;
+    margin-top: -190px;
+    margin-bottom: 65px;
 }
 
 .counters-one-bg {
