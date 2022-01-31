@@ -23,7 +23,7 @@
     --thm-gray: #767676;
     --thm-gray-rgb: 118, 118, 118;
     --thm-primary: #0064AD;
-    --thm-primary-rgb: 251, 169, 25;
+    --thm-primary-rgb: 0, 100, 173;
     --thm-black: #171717;
     --thm-black-rgb: 23, 23, 23;
     --thm-base: #ffffff;
@@ -333,6 +333,10 @@ ul {
 /*--------------------------------------------------------------
 # Navigations One
 --------------------------------------------------------------*/
+.alt-page {
+    background-color: var(--thm-black)
+}
+
 .main-header {
     position: relative;
     display: block;
@@ -865,10 +869,9 @@ ul {
 .main-menu-two-wrapper__main-menu {
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: right;
     width: 80%;
-    float: left;
+    float: right;
 }
 
 .main-menu-two .main-menu__list>li>a,
@@ -2006,7 +2009,7 @@ ul {
     left: -1px;
     bottom: -8px;
     content: "";
-    background-color: var(--thm-primary);
+    background-color: var(--);
     width: 7px;
 }
 
@@ -4678,7 +4681,7 @@ ul {
     height: 100%;
     width: 100%;
     content: "";
-    background-color: rgba(var(--thm-primary-rgb), .96);
+    background-color: #0064AD;
     z-index: -1;
 }
 
@@ -4706,8 +4709,7 @@ ul {
     left: 0px;
     bottom: 5px;
     content: "";
-    width: 1px;
-    background-color: rgba(var(--thm-base-rgb), .4);
+    background-color: rgba(var(--thm-primary-rgb), .4);
 }
 
 .counter-one__single:nth-child(1) {
@@ -4943,7 +4945,7 @@ ul {
 .google-map {
     position: relative;
     display: block;
-    margin-top: -112px;
+    margin-top: -30px;
 }
 
 .google-map__one {
