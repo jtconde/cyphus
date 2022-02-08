@@ -1,19 +1,5 @@
-/* Large Layout: 1200px.
-@media only screen and (min-width: 1200px){
-.container {padding: 0;}
-.container-fluid{padding: 0;}
 
 
-.cta_two_btn {
-    margin-left: 49px;
-}
-
-
-
-}
-
-
-*/
 
 /* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
